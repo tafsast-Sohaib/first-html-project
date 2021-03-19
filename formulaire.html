@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+   <title> Mon premier formulaire</title>
+    <meta charset="utf-8">
+    </head>
+<body>
+  <h1> Votre Avis Nous Intéresse </h1>
+  <table  width="100%">
+  <tr>
+  <form>
+    <td>
+       <fieldset>
+          <legend>Informations Personnelles </legend>
+            <ol>
+              <li>
+              Nom <input type="text" name="">
+              </li>
+              <li>
+              Date de naissance <input type="date" name=""
+              >
+              </li>
+              <li>
+              Site <input type="site" name=""
+              placeholder="http://monsite.com">
+              </li>
+              <li>
+
+              <label for="emploi">Emploi</label>
+              <select id ="emploi">
+
+                 <option value="etudiant">Etudiant</option>
+                 <option value="administrateur réseau">Administrateur Réseau</option>
+                 <option value="dévelopeur web">Dévelopeur web </option>
+                 <option value="web designer">Web Designer</option>
+                 <option value="divOps">DivOps</option>
+
+              </select>
+              </li>
+              <li>
+              Approx. Salaire annuel <br><input type="number" name=""
+              placeholder="$">
+              </li>
+            </ol>
+       </fieldset>
+       </td>
+       <td>
+       <fieldset>
+          <legend>Informations Contact </legend>
+            <ol>
+              <li>
+              Adresse ligne 1 <br><input type="adress" name="">
+              </li>
+             <li>
+              Adresse ligne 2 <br><input type="adress" name="">
+              </li>
+              <li>
+               <label for="pays">Pays</label>
+              <select id ="pays">
+
+                 <option value="algérie">Algérie  </option>
+                 <option value="tunisie">Tunisie</option>
+                 <option value="maroc">Maroc</option>
+
+              </select>
+              </li>
+              <li>
+              Tel <input type="Tel" name=""
+              placeholder="eg: +213 67...">
+              </li>
+              <li>
+              Courriel <input type="email" name="">
+              </li>
+            </ol>
+       </fieldset>
+      </td>
+  </form>
+  </tr>
+  </table>
+  <h1>Préférences</h1>
+  <div>
+  Choisir une couleur <input type="color" name="" value="black"><br>
+  </div>
+  <div>
+  Sur une échelle de 1 à 10, quel est votre degré d'enthousiasme pour HTML5 ? <input type="range" name=""><br>
+  </div>
+  <div>
+  <input type="submit" name="" value="Envoyer">
+  </div>
+</body>
+  </html>
